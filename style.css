@@ -6,7 +6,7 @@ padding: 0;
 .container{}
 
 .container-navbar{
-background-color: #949494;
+background-color: #d6d6d6;
 width: 100%;
 height: 10vh;
 }
@@ -22,13 +22,60 @@ height: 100px;
 list-style-type: none;
 padding: 20px;
 margin: 5px;
-color: white;
+color: rgb(0, 0, 0);
 font-size: 30px;
 }
 
 .a-navbar{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 800;
 
+}
+
+.movie {
+    background: #222;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    transition: transform 0.3s;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+  }
+
+  .movie-a {
+    background: rgba(107, 168, 187, 0.75);;
+    padding: 10px;
+    border-radius: 10px;
+    width: 140px;
+    text-align: center;
+    transition: transform 0.3s;
+    box-shadow: 10px 10px 5px 0px rgba(107, 168, 187, 0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+  }
+
+  .movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+
+  }
+.arah{
+    height: 100px;
+    width: 100px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.text{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 140%;
 }
